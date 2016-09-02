@@ -1,0 +1,25 @@
+{
+  "name": "jsblackjack",
+  "version": "1.0.0",
+  "description": "Just a little blackjack game I'm building to flex my javascript muscle.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chasewackerfuss/blackjack.git"
+  },
+  "author": "Chase Wackerfuss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chasewackerfuss/blackjack/issues"
+  },
+  "homepage": "https://github.com/chasewackerfuss/blackjack#readme",
+  "devDependencies": {
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-watch": "^4.3.5",
+    "gulp-plumber": "^1.0.1"
+  }
+}

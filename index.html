@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="container">
+      <h1 class="game-title">Blackjack</h1>
+    </div>
+  </nav>
+
+  <div class="container gameboard">
+
+
+      <button id="startGame" class="btn btn-primary center-block">Start Game</button>
+
+      <div id="blackjack">
+
+
+        <div class="dealer">
+          <div class="row">
+
+            <div class="col-md-6 col-md-offset-3 col-xs-8">
+              <h2 class="dealer-hand">Dealer's Hand</h2>
+              <div id="dealerHand" class="flex"></div>
+            </div>
+
+            <div class="col-md-3 col-xs-4">
+              <h2>Deck</h2>
+              <div id="deck" class="flex">
+                <div class="deck"></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="player">
+          <div class="row">
+
+            <div class="col-md-6 col-md-offset-3 col-xs-8">
+              <div class="player-bet">
+                <h4>Total Bet</h4>
+                <h5 id="current-bet"></h5>
+              </div>
+              <div id="playerHand" class="player-hand flex"></div>
+              <h2 id="playerName"></h2>
+              <div class="player-actions flex">
+                <button id="hit" class="btn btn-primary">Hit</button>
+                <button id="stand" class="btn btn-primary">Stand</button>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-xs-4">
+              <div class="chips">
+                <h2>Credits</h2>
+                <div class="credits">
+                  <p>Credits: $<span id="credits-total"></span></p>
+                  <p>Defaut Bet: $<span id="credits-default"></span></p>
+                  <button class="btn btn-default">
+                    <span class="glyphicon glyphicon-arrow-up"></span>
+                  </button>
+                  <button class="btn btn-default">
+                    <span class="glyphicon glyphicon-arrow-down"></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+
+
+
+  </div>
+
+
+</body>
+<script src="scripts.js"></script>
+
+</html>
